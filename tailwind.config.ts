@@ -104,7 +104,7 @@ export default {
             transform: "translateY(0)",
           },
         },
-        "glow": {
+        glow: {
           "0%, 100%": { opacity: "1" },
           "50%": { opacity: "0.7" },
         },
@@ -115,7 +115,7 @@ export default {
         "fade-in": "fade-in 0.6s ease-out",
         "slide-in-up": "slide-in-up 0.6s ease-out",
         "slide-in-down": "slide-in-down 0.6s ease-out",
-        "glow": "glow 2s ease-in-out infinite",
+        glow: "glow 2s ease-in-out infinite",
       },
     },
   },

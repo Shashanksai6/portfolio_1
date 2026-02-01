@@ -83,7 +83,9 @@ export default function Contact() {
               </div>
 
               <div className="border-t border-border pt-12">
-                <h2 className="text-2xl font-bold mb-4">Ready to build something?</h2>
+                <h2 className="text-2xl font-bold mb-4">
+                  Ready to build something?
+                </h2>
                 <p className="text-foreground/70 mb-6">
                   I'm always excited to collaborate on new projects. Feel free
                   to reach out via email or social media.

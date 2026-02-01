@@ -92,7 +92,9 @@ export default function Projects() {
               ].map((filter) => (
                 <button
                   key={filter.value}
-                  onClick={() => setActiveFilter(filter.value as ProjectCategory)}
+                  onClick={() =>
+                    setActiveFilter(filter.value as ProjectCategory)
+                  }
                   className={`px-6 py-2 rounded-lg font-semibold transition-all ${
                     activeFilter === filter.value
                       ? "bg-primary text-primary-foreground"
